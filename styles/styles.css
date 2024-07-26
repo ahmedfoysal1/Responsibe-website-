@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Inter:wght@100..900&display=swap');
 
 *{
     margin: 0;
@@ -8,6 +9,8 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: black;
+    margin: 0;
+    padding: 0;
     
 }
 /* nav-bar content start from here  */
@@ -16,9 +19,9 @@ body{
     width: 1440px;
     height: 715px;
     margin: 0 auto;
-    /* background: black;
+    background: black;
     opacity: 0.9;
-    background-blend-mode: overlay; */
+    background-blend-mode: overlay;
     background: linear-gradient(180.00deg, rgb(28, 27, 27),rgba(105, 104, 104, 0) 100%);
 }
 
@@ -115,6 +118,10 @@ body{
     color: rgb(255, 255, 255);
     font-size: 55px;
     font-weight: 1000;
+}
+.shape{
+    font-family: "Dancing Script", cursive;
+    font-size: 7rem;
 }
 
 .banner-1-p{
@@ -317,15 +324,15 @@ body{
                                                                                             /* media query start from here */
 @media screen and (max-width: 576px) {
     
-    body{                                                                                      
-        margin: 0;                                                                     
+    body{                                                          
+        margin: 0;                                                                  
     }
     
     
     .header{
         width: 100%;
         height: 1086px;
-        margin: 0;
+        /* margin: 0; */
     }
     .banner-1{
         flex-direction: column;
@@ -364,6 +371,9 @@ body{
         font-size: 26px;
         font-weight: 900;
         margin: 0 auto;
+    }
+    .shape{
+        font-size: 3rem;
     }
     .banner-1-p{
         width: 274px;
