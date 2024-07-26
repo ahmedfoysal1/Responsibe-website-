@@ -299,7 +299,7 @@ body{
 }
 .bnr2-img p{
     color: rgba(255, 255, 255, 0.5);
-    font-family: "Inter", sans-serif;
+    font-family: Inter;
     font-size: 14px;
     font-weight: 400;
     padding-top: 8px;
@@ -311,15 +311,14 @@ body{
     margin: 0 auto;
     margin-top: 20px;
     margin-left: -25px;
-    
 }
 
-
-
+                                                                                            /* media query start from here */
+                                                                                            /* media query start from here */
 @media screen and (max-width: 576px) {
     
-    body{
-        margin: 0;
+    body{                                                                                      
+        margin: 0;                                                                     
     }
     
     
@@ -445,4 +444,34 @@ body{
         top: -55px;
         left: 15px;
     }
+
+        .banner-2{
+            width: 350px;
+            height: 1398px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        .banner-2-div1{
+            width: 335px;
+            height: 124px;
+        }
+        .banner-2-div1 h3{
+            font-size: 32px;
+        }
+
+
+        .banner-2-div2{
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+            text-align: center;
+        }
+        .bnr2-img-content{
+            margin-left: 17px;
+        }
+        
+
+
+
 }
