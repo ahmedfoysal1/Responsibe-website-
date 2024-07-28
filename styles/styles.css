@@ -404,7 +404,7 @@ body{
                                                                                         /* bmi calculator section start from here */
                                                                                         /* bmi calculator section start from here */
 .bmi-calculator{
-    width: 1515px;
+    width: 1420px;
     height: 487px;
     background: rgb(34, 34, 34);
     margin: 0 auto;
@@ -657,6 +657,110 @@ font-weight: 400;
     margin-top: 5px;
     margin-left: 20px;
 }
+.footer{
+    width: 1515px;
+    height: 489px;
+    margin: 0 auto;
+    margin-top: 88px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
+    display: flex;
+}
+.footer-div{
+    width: 1059px;
+    height: 249px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 66px;
+    justify-content: space-between;
+
+}
+.footer-div1{
+    width: 443px;
+    height: 176px;
+}
+.footer-div1 i{
+    width: 256px;
+    height: 84px;
+    font-family: "Inter", sans-serif;
+    color: rgb(237, 71, 46);
+    font-size: 70px;
+    font-weight: 800;
+}
+.footer-div1 p{
+    width: 430px;
+    height: 72px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 25px;
+
+}
+.footer-2nd-div{
+    display: flex;
+    gap: 130px;
+}
+.footer-div2 > ul{
+    margin-top: 40px;
+    list-style: none;
+}
+.footer-div2 ul li{
+    margin-bottom: 15px;
+   
+}
+.footer-div3 ul li{
+    margin-bottom: 15px;
+}
+.footer-div2, .footer-div3, h4{
+    width: 181px;
+    height: 38px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer-div2{
+    width: 200px;
+    height: 250px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.footer-div3 > ul{
+    margin-top: 40px;
+    list-style: none;
+}
+
+.footer-div3{
+    width: 181px;
+    height: 250px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+hr{
+    width: 1070px;
+    border: 2px solid rgba(141, 138, 138, 0.1);
+    margin: 80px 189px 36px 220px;
+}
+.footer-p p{
+    width: 318px;
+    height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 auto;
+
+}
+
 
                                                                                             /* media query start from here */
                                                                                             /* media query start from here */
