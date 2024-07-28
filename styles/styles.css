@@ -531,6 +531,133 @@ font-weight: 400;
     font-weight: 600;
 }
 
+.banner-4{
+    width: 1060px;
+    height: 782px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.banner-4-div1{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-4-div1 h1{
+    width: 364px;
+    height: 58px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0px 153px 15px 153px;
+}
+.banner-4-div1 p{
+    width: 671px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.banner-4-images{
+    width: 1060px;
+    height: 604px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.banner-4-image-container{
+    width: 326px;
+    height: 272px;
+    background-image:  url('../images/trainer1.png');
+    background-size: 320px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+
+    
+}
+.banner-4-image-container1{
+    width: 326px;
+    height: 272px;
+    background-image: url('../images/trainer2.png');
+    background-size: 320px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    
+}
+.banner-4-image-container2{
+    width: 326px;
+    height: 272px;
+    background-image: url('../images/trainer3.png');
+    background-size: 320px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    
+}
+.banner-4-image-container3{
+    width: 326px;
+    height: 272px;
+    background-image: url('../images/trainer4.png');
+    background-size: 400px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    
+}
+.banner-4-image-container4{
+    width: 326px;
+    height: 272px;
+    background-image: url('../images/trainer5.png');
+    background-size: 320px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    
+}
+.banner-4-image-container5{
+    width: 326px;
+    height: 272px;
+    background-image: url('../images/trainer6.png');
+    background-size: 320px 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 18px;
+    
+}
+
+.bnr-4-img-h5{
+    width: 165px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 210px;
+    margin-left: 20px;
+}
+.bnr-4-img-p{
+    width: 28px;
+    height: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
                                                                                             /* media query start from here */
                                                                                             /* media query start from here */
 @media screen and (max-width: 576px) {
@@ -817,5 +944,39 @@ font-weight: 400;
         .bmi-calculator-div2-btn{
             width: 224px;
             height: 54px;
+        }
+        .banner-4{
+            width: 100%;
+        }
+        .banner-4-div1{
+            width: 309px;
+            height: 124px;
+            margin: 0;
+            margin: 66px 42px 37px 57px ;
+        }
+
+        .banner-4-div1 h1{
+            width: 243px;
+            height: 38px;
+            font-size: 32px;
+            padding: 0;
+            padding: 0px 33px 14px 33px;
+        }
+        .banner-4-div1 p{
+            width: 309px;
+            height: 72px;
+            font-size: 14px;
+        }
+
+        .banner-4-images{
+            width: 353px;
+            height: 1188px;
+            grid-template-columns: repeat(1, 1fr);
+            margin: 0 20px 37px 20px;
+            
+        }
+
+        .banner-4-image-container, .banner-4-image-container3{
+            display: none;
         }
 }
